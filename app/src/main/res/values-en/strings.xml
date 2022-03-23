@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalculeMental</string>
+    <string name="score_bouton_value">Score</string>
+    <string name="nouvelle_partie_bouton_value">New game</string>
+    <string name="accueil">Home</string>
+    <string name="afficher_les_scores">Display scores</string>
+    <string name="suivant">Next</string>
+    <string name="_12">12</string>
+    <string name="valider">Valide</string>
+    <string name="page_des_scores">Scores</string>
+    <string name="nombre_d_op_rations">Number of operations : </string>
+    <string name="derniere_op_ration_r_ussite">Last good operation : </string>
+    <string name="retour_l_accueil">Home</string>
+    <string name="pourcentage_de_r_ussite">Percentage of succes : </string>
+    <string name="calcul_vrai">TRUE</string>
+    <string name="calcul_faux">FALSE</string>
+    <string name="toast_calcul">Warning, empty answer</string>
+    <string name="vider_les_scores">Clean scores</string>
+</resources>

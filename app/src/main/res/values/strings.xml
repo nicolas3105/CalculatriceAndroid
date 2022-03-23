@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CalculeMental</string>
+    <string name="score_bouton_value">Score</string>
+    <string name="nouvelle_partie_bouton_value">Nouvelle partie</string>
+    <string name="accueil">accueil</string>
+    <string name="afficher_les_scores">Afficher les scores</string>
+    <string name="suivant">Suivant</string>
+    <string name="_12">12</string>
+    <string name="valider">Valider</string>
+    <string name="page_des_scores">Page des scores</string>
+    <string name="nombre_d_op_rations">Nombre d\'opérations : </string>
+    <string name="derniere_op_ration_r_ussite">Derniere opération réussite : </string>
+    <string name="retour_l_accueil">Retour à l\'accueil</string>
+    <string name="pourcentage_de_r_ussite">Pourcentage de réussite : </string>
+    <string name="calcul_vrai">VRAI</string>
+    <string name="calcul_faux">FAUX</string>
+    <string name="toast_calcul">Attention, réponse vide</string>
+    <string name="vider_les_scores">Vider les scores</string>
+</resources>
