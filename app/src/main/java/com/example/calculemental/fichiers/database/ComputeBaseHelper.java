@@ -20,6 +20,6 @@ public class ComputeBaseHelper extends DataBaseHelper{
 
     @Override
     protected String getDeleteSql() {
-        return null;
+        return "DROP TABLE IF EXISTS historique";
     }
 }

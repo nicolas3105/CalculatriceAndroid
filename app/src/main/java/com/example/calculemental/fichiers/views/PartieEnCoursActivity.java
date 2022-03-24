@@ -104,6 +104,7 @@ public class PartieEnCoursActivity extends AppCompatActivity {
     private boolean ViderCalculs(){
         nbCalculsBons=0;
         nbCalculs=0;
+        calculService.dropTable();
         return true;
     }
 

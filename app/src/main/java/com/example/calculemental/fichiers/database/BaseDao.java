@@ -97,4 +97,21 @@ public abstract  class BaseDao<T extends BaseEntity> {
         putValues(cv,values);
         db.update(getTableName(),cv,null,null);
     }
+
+    public void drop(){
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        db.execSQL(getDeleteSql());
+        db.execSQL(getCreationSql());
+    }
+
+    protected String getCreationSql() {
+        return "CREATE TABLE IF NOT EXISTS historique ("+
+                "id" + " INTEGER PRIMARY KEY AUTOINCREMENT,"+
+                CalculDao.cleCalcul + " VARCHAR(255) NOT NULL,"+
+                CalculDao.cleNbCalculs + " INTEGER NOT NULL,"+
+                CalculDao.cleNbCalculsReussis + " INTEGER NOT NULL"+
+                ")";
+    }
+
+    protected String getDeleteSql(){return "DROP TABLE IF EXISTS historique";};
 }

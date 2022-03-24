@@ -17,6 +17,7 @@ public class CalculService {
     public void storeInDb(Calcul calcul){
         calculDao.create(calcul);
     }
+    public void dropTable(){calculDao.drop();}
 
     public void updateInDb(Calcul calcul){
         calculDao.updateQuery(calcul);
