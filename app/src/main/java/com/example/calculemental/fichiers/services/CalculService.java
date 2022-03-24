@@ -11,7 +11,9 @@ public class CalculService {
         this.calculDao=calculDao;
 
     }
-
+    public long getScoreCount(){
+        return calculDao.count();
+    }
     public void storeInDb(Calcul calcul){
         calculDao.create(calcul);
     }

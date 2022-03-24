@@ -5,11 +5,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.calculemental.R;
+import com.example.calculemental.fichiers.database.CalculDao;
+import com.example.calculemental.fichiers.database.ComputeBaseHelper;
+import com.example.calculemental.fichiers.exceptions.ValeurNullException;
+import com.example.calculemental.fichiers.services.CalculService;
 
 
 public class MainActivity extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,12 +28,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void ouvreActiviteScores() {
+
         Intent intent = new Intent(this, ScoreActivity.class);
         startActivity(intent);
+
     }
 
     private void ouvreActiviteJeu() {
-        Intent intent = new Intent(this, PartieEnCoursActivity.class);
-        startActivity(intent);
+
+            Intent intent = new Intent(this, PartieEnCoursActivity.class);
+            startActivity(intent);
+
     }
 }
